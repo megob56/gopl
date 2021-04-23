@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<script>window.addEventListener('error', window.__err=function f(e){f.p=f.p||[];f.p.push(e)});</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="Description" content="Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.">
+
+<meta class="js-gtmID" data-gtmid="GTM-W8MVQXG">
+<link href="/static/css/stylesheet.css?version=2021-03-24t18-27-c164d91528e58e833c0fc4e747c9b67fc4566149" rel="stylesheet">
+<link href="/third_party/dialog-polyfill/dialog-polyfill.css?version=2021-03-24t18-27-c164d91528e58e833c0fc4e747c9b67fc4566149" rel="stylesheet">
+<title>Home · pkg.go.dev</title>
+
+  <link href="/static/css/homepage.css?version=2021-03-24t18-27-c164d91528e58e833c0fc4e747c9b67fc4566149" rel="stylesheet">
+
+<body class="Site Site--redesign">
+<header class="Site-header Site-header--dark">
+  <div class="Banner">
+    <div class="Banner-inner">
+      <div class="Banner-message">Black Lives Matter</div>
+      <a class="Banner-action"
+         href="https://support.eji.org/give/153413/#!/donation/checkout"
+         target="_blank"
+         rel="noopener">Support the Equal Justice Initiative</a>
+    </div>
+  </div>
+  <div class="Header">
+    <nav class="Header-nav">
+      <a href="https://go.dev/" class="Header-logoLink">
+        <img class="Header-logo" src="/static/img/go-logo-white.svg" alt="Link to Go homepage">
+      </a>
+      
+  
+  <wbr>
+
+      <ul class="Header-menu">
+        <li class="Header-menuItem">
+          <a href="https://go.dev/solutions" title="Why Go">Why Go</a>
+        </li>
+        <li class="Header-menuItem">
+          <a href="https://learn.go.dev" title="Getting Started">Getting Started</a>
+        </li>
+        <li class="Header-menuItem Header-menuItem--active">
+          <a href="/" title="Discover Packages">Discover Packages</a>
+        </li>
+        <li class="Header-menuItem">
+          <a href="https://go.dev/about" title="">About</a>
+        </li>
+      </ul>
+      <button class="Header-navOpen js-headerMenuButton" aria-label="Open navigation.">
+      </button>
+    </nav>
+  </div>
+</header>
+<aside class="NavigationDrawer js-header">
+  <nav class="NavigationDrawer-nav">
+    <div class="NavigationDrawer-header">
+      <a href="https://go.dev/">
+        <img class="NavigationDrawer-logo" src="/static/img/go-logo-blue.svg" alt="Go.">
+      </a>
+      <button class="NavigationDrawer-close js-headerMenuButton" aria-label="Close navigation.">
+      </button>
+    </div>
+    <ul class="NavigationDrawer-list">
+      <li class="NavigationDrawer-listItem">
+        <a href="https://go.dev/solutions" title="Why Go">Why Go</a>
+      </li>
+      <li class="NavigationDrawer-listItem">
+        <a href="https://learn.go.dev" title="Getting Started">Getting Started</a>
+      </li>
+      <li class="NavigationDrawer-listItem NavigationDrawer-listItem--active">
+        <a href="/" title="Discover Packages">Discover Packages</a>
+      </li>
+      <li class="NavigationDrawer-listItem">
+        <a href="https://go.dev/about" title="">About</a>
+      </li>
+      <li class="NavigationDrawer-listItem">
+        <a href="https://golang.org" title="golang.org">golang.org</a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+<div class="NavigationDrawer-scrim js-scrim" role="presentation">
+</div>
+<div class="Site-content">
+  <div class="Container">
+    <div class="Homepage">
+      <img class="Homepage-logo" src="/static/img/gopher-homepage.jpg" alt="Cartoon gopher typing">
+      <form class="Homepage-searchForm" action="/search" role="search">
+        <div class="Homepage-buttonGroup">
+          <input
+            id="AutoComplete"
+            role="textbox"
+            aria-label="Search for Go packages"
+            type="text"
+            name="q"
+            placeholder="Search for Go packages"
+            autocapitalize="off"
+            autocomplete="off"
+            autocorrect="off"
+            spellcheck="false"
+            title="Search for Go packages"
+            autofocus="true">
+          <button type="submit" class="Homepage-searchButton">Search</button>
+        </div>
+      </form>
+      <span class="Homepage-searchHelp">
+        <div class="Homepage-exampleSearches">
+          <span class="Homepage-exampleSearchesLabel">Example searches:</span>
+          <a class="Homepage-exampleSearch" href="/search?q=http">“http”</a>
+          <a class="Homepage-exampleSearch" href="/search?q=command">“command”</a>
+          <a class="Homepage-exampleSearch" href="/search?q=yaml+OR+json+OR+xml">“yaml OR json OR xml”</a>
+        </div>
+        <a href="/search-help" target="_blank" rel="noopener" class="Homepage-helpLink">
+          Search help <span><img src="/static/img/icon-launch.svg" alt=""></span>
+        </a>
+      <span>
+    </div>
+  </div>
+</div>
+<footer class="Site-footer">
+  
+  <div class="Questions">
+    <div class="Questions-content">
+      <div class="Questions-header">Frequently asked questions:</div>
+      <ul>
+        <li><a href="https://go.dev/about#adding-a-package">How can I add a package?</a></li>
+        <li><a href="https://go.dev/about#removing-a-package">How can I remove a package?</a></li>
+        <li><a href="https://go.dev/about#creating-a-badge">How can I add a go badge in my README file?</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="Footer">
+    <div class="Footer-links">
+      <div class="Footer-linkColumn">
+        <a href="https://go.dev/solutions" class="Footer-link Footer-link--primary" title="Why Go">
+          Why Go
+        </a>
+        <a href="https://go.dev/solutions#use-cases" class="Footer-link" title="Use Cases">
+          Use Cases
+        </a>
+        <a href="https://go.dev/solutions#case-studies" class="Footer-link" title="Case Studies">
+          Case Studies
+        </a>
+      </div>
+      <div class="Footer-linkColumn">
+        <a href="https://learn.go.dev/" class="Footer-link Footer-link--primary" title="Getting Started">
+          Getting Started
+        </a>
+        <a href="https://play.golang.org" class="Footer-link" title="">
+          Playground
+        </a>
+        <a href="https://tour.golang.org" class="Footer-link" title="">
+          Tour
+        </a>
+        <a href="https://stackoverflow.com/questions/tagged/go?tab=Newest" class="Footer-link" title="">
+          Stack Overflow
+        </a>
+      </div>
+      <div class="Footer-linkColumn">
+        <a href="https://pkg.go.dev" class="Footer-link Footer-link--primary" title="Discover Packages">
+          Discover Packages
+        </a>
+      </div>
+      <div class="Footer-linkColumn">
+        <a href="https://go.dev/about" class="Footer-link Footer-link--primary" title="About">
+          About
+        </a>
+        <a href="https://golang.org/dl/" class="Footer-link" title="">
+          Download
+        </a>
+        <a href="https://blog.golang.org" class="Footer-link" title="">
+          Blog
+        </a>
+        <a href="https://golang.org/doc/devel/release.html" class="Footer-link" title="">
+          Release Notes
+        </a>
+        <a href="https://blog.golang.org/go-brand" class="Footer-link" title="">
+          Brand Guidelines
+        </a>
+        <a href="https://golang.org/conduct" class="Footer-link">
+          Code of Conduct
+        </a>
+      </div>
+      <div class="Footer-linkColumn">
+        <a href="https://www.twitter.com/golang" class="Footer-link Footer-link--primary" title="Connect">
+          Connect
+        </a>
+        <a href="https://www.twitter.com/golang" class="Footer-link" title="">
+          Twitter
+        </a>
+        <a href="https://github.com/golang" class="Footer-link" title="">
+          GitHub
+        </a>
+        <a href="https://invite.slack.golangbridge.org/" class="Footer-link" title="">
+          Slack
+        </a>
+        <a href="https://www.meetup.com/pro/go" class="Footer-link" title="">
+          Meetup
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="Footer">
+    <div class="Container Container--fullBleed">
+      <div class="Footer-bottom">
+        <img class="Footer-gopher" loading="lazy" src="/static/img/pilot-bust.svg" alt="Gopher in flight goggles">
+        <ul class="Footer-listRow">
+          <li class="Footer-listItem"><a href="https://go.dev/copyright">Copyright</a></li>
+          <li class="Footer-listItem"><a href="https://go.dev/tos">Terms of Service</a></li>
+          <li class="Footer-listItem"><a href="http://www.google.com/intl/en/policies/privacy/" target="_blank" rel="noopener">Privacy
+              Policy</a></li>
+          <li class="Footer-listItem">
+            <a href="https://golang.org/s/pkgsite-feedback" target="_blank" rel="noopener">
+              Report an Issue
+            </a>
+          </li>
+          <li class="Footer-listItem"><a href="https://golang.org" target="_blank" rel="noopener">golang.org</a></li>
+        </ul>
+        <a class="Footer-googleLogo" href="https://google.com" target="_blank" rel="noopener">
+          <img class="Footer-googleLogoImg" loading="lazy" src="/static/img/google-white.png" alt="Google logo">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function loadScript(src, props = {}) {
+    let s = document.createElement('script');
+    s.src = src;
+    for (const [k, v] of Object.entries(props)) {
+      s[k] = v
+    }
+    document.head.appendChild(s);
+  }
+  loadScript("/static/js/site.js");
+</script>
+
+
+
+
+<script async>
+  const gtmId = document.querySelector('.js-gtmID').dataset.gtmid; // this will throw if the querySelector can’t find the element
+  if (!gtmId) {
+    throw new Error('Google Tag Manager ID not found');
+  }
+  loadScript(`https://www.googletagmanager.com/gtm.js?id=${gtmId}`);
+</script>
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8MVQXG"
+          height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+</noscript>
+
