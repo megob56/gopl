@@ -1,4 +1,4 @@
-package main
+package findAddressLinks
 
 import (
 	"fmt"
@@ -6,7 +6,6 @@ import (
 	"net/http"
 	"strings"
 
-	findAddress "example.com/chapter-five/crawlWeb/findAddressLinks"
 	"golang.org/x/net/html"
 )
 
@@ -71,7 +70,7 @@ func Visit(url string) error {
 				if attr.Key == "href" {
 					extractedUrl := attr.Val
 					if len(extractedUrl) > 0 && extractedUrl[0] == '/' {
-						extractedUrl = "https:" + extractedUrl
+						extractedUrl = URI_STUDENT_HOUSING_BASE_URL + extractedUrl
 					}
 					urlQueue = append(urlQueue, extractedUrl)
 				}
@@ -84,15 +83,10 @@ func Visit(url string) error {
 	f(doc)
 
 	for _, value := range urlQueue {
-		if strings.Contains(value, "property/listings/info/") {
-			// fmt.Printf("%v\n", value)
-			findAddress.Visit(value)
+		if strings.Contains(value, "google") {
+			fmt.Printf("%v\n", value)
 		}
 	}
 
 	return nil
-}
-
-func main() {
-	Visit("https://commuters.apps.uri.edu/property/home/myList?rental_period=Academic%20Year")
 }
